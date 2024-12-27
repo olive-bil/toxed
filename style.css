@@ -1,0 +1,16 @@
+/* 适配手机屏幕 */
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+    width: 100%; /* 适配屏幕宽度 */
+    height: 100%; /* 适配屏幕高度 */
+}
